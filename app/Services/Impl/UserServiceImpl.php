@@ -19,5 +19,11 @@ class UserServiceImpl implements UserService
 
         $correctPass = $this->users[$user];
         return $password == $correctPass;
+        
+        // if ($password == $correctPass){
+        //     return \true;
+        // } else {
+        //     return \false;
+        // };
     }
 }
